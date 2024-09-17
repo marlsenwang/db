@@ -1,3 +1,5 @@
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '';
 select * from mysql.tables;
 
 select * from mysql.schemata;
@@ -9,6 +11,7 @@ select * from mysql.tablespaces;
 select * from mysql.indexes;
 select * from mysql.tables;
 select * from mysql.columns;
+
 
 
 create database `test`;
